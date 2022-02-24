@@ -102,8 +102,8 @@ build CMakeFiles/svg_creator.dir/src/Polygone.cpp.o: CXX_COMPILER__svg_creator_D
   OBJECT_DIR = CMakeFiles/svg_creator.dir
   OBJECT_FILE_DIR = CMakeFiles/svg_creator.dir/src
 
-build CMakeFiles/svg_creator.dir/src/Window.cpp.o: CXX_COMPILER__svg_creator_Debug /Users/yoggy/Documents/apps/cpp/svg_creator/src/Window.cpp || cmake_object_order_depends_target_svg_creator
-  DEP_FILE = CMakeFiles/svg_creator.dir/src/Window.cpp.o.d
+build CMakeFiles/svg_creator.dir/src/Drawing.cpp.o: CXX_COMPILER__svg_creator_Debug /Users/yoggy/Documents/apps/cpp/svg_creator/src/Drawing.cpp || cmake_object_order_depends_target_svg_creator
+  DEP_FILE = CMakeFiles/svg_creator.dir/src/Drawing.cpp.o.d
   FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
   OBJECT_DIR = CMakeFiles/svg_creator.dir
   OBJECT_FILE_DIR = CMakeFiles/svg_creator.dir/src
@@ -116,7 +116,7 @@ build CMakeFiles/svg_creator.dir/src/Window.cpp.o: CXX_COMPILER__svg_creator_Deb
 #############################################
 # Link the executable svg_creator
 
-build svg_creator: CXX_EXECUTABLE_LINKER__svg_creator_Debug CMakeFiles/svg_creator.dir/main.cpp.o CMakeFiles/svg_creator.dir/src/Shape.cpp.o CMakeFiles/svg_creator.dir/src/Circle.cpp.o CMakeFiles/svg_creator.dir/src/Rectangle.cpp.o CMakeFiles/svg_creator.dir/src/Polygone.cpp.o CMakeFiles/svg_creator.dir/src/Window.cpp.o
+build svg_creator: CXX_EXECUTABLE_LINKER__svg_creator_Debug CMakeFiles/svg_creator.dir/main.cpp.o CMakeFiles/svg_creator.dir/src/Shape.cpp.o CMakeFiles/svg_creator.dir/src/Circle.cpp.o CMakeFiles/svg_creator.dir/src/Rectangle.cpp.o CMakeFiles/svg_creator.dir/src/Polygone.cpp.o CMakeFiles/svg_creator.dir/src/Drawing.cpp.o
   FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/svg_creator.dir
   POST_BUILD = :

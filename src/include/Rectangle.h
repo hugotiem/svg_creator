@@ -6,7 +6,9 @@
 #define SVG_CREATOR_RECTANGLE_H
 
 
-class Rectangle {
+#include "Shape.h"
+
+class Rectangle : public Shape {
 
 };
 

@@ -6,7 +6,9 @@
 #define SVG_CREATOR_CIRCLE_H
 
 
-class Circle {
+#include "Shape.h"
+
+class Circle : public Shape {
 
 };
 

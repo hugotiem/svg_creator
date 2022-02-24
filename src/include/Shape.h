@@ -8,15 +8,12 @@
 
 #include <string>
 
-template<typename T> class Shape {
+class Shape {
 private:
     std::string tagName;
 
 public:
-    template <typename U> friend class Shape;
-
-    template <typename U>
-        Shape(const Shape<U> &s): {};
+    Shape() {};
 };
 
 

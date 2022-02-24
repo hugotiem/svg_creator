@@ -6,7 +6,9 @@
 #define SVG_CREATOR_POLYGONE_H
 
 
-class Polygone {
+#include "Shape.h"
+
+class Polygone : public Shape {
 
 };
 
