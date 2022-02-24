@@ -8,12 +8,24 @@
 
 #include <string>
 
+template<typename T>
 class Shape {
 private:
-    std::string tagName;
+    std::string color;
+    int d_x;
+    int d_y;
 
 public:
     Shape() {};
+
+    std::ostream& operator<<(std::ostream& os, T& t) {
+
+
+        os;
+        return os;
+    }
+
+
 };
 
 

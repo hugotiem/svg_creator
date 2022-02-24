@@ -8,8 +8,21 @@
 
 #include "Shape.h"
 
-class Rectangle : public Shape {
+using namespace std;
 
+class Rectangle {
+
+private:
+    string color;
+    int d_x;
+    int d_y;
+
+public:
+    Rectangle(string color, int x, int y): color(color), d_x(x), d_y(y) {};
+
+    void draw() {
+        for(int )
+    }
 };
 
 

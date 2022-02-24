@@ -8,7 +8,7 @@
 
 #include "Shape.h"
 
-class Polygone : public Shape {
+class Polygone {
 
 };
 

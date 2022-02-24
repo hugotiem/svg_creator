@@ -14,7 +14,7 @@ private:
     int d_x;
     int d_y;
 
-    std::vector<>
+
 
 public:
     Drawing(int x, int y): d_x(x), d_y(y) {};
