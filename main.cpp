@@ -1,6 +1,8 @@
 #include <iostream>
+#include "src/Rectangle.cpp"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Rectangle *rectangle = new Rectangle("v", 4, 3);
+    rectangle->draw();
     return 0;
 }

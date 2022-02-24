@@ -20,9 +20,19 @@ private:
 public:
     Rectangle(string color, int x, int y): color(color), d_x(x), d_y(y) {};
 
-    void draw() {
-        for(int )
+    int getX() {
+        return d_x;
     }
+
+    int getY() {
+        return d_y;
+    }
+
+    string getColor() {
+        return color;
+    }
+
+    void draw();
 };
 
 

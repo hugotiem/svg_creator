@@ -1,0 +1,7 @@
+# ninja log v5
+2	824	1645731584452042779	CMakeFiles/svg_creator.dir/src/Polygone.cpp.o	a6efa517abffcf34
+2	836	1645731584467908176	CMakeFiles/svg_creator.dir/src/Circle.cpp.o	4849410386c42b99
+1	848	1645731584482775814	CMakeFiles/svg_creator.dir/src/Shape.cpp.o	554eb555eeeb8686
+2	896	1645731584530122431	CMakeFiles/svg_creator.dir/src/Drawing.cpp.o	36672df89486a8a1
+0	984	1645731584619584834	CMakeFiles/svg_creator.dir/main.cpp.o	2310bd480f4b1fa0
+2	989	1645731584625000574	CMakeFiles/svg_creator.dir/src/Rectangle.cpp.o	2e98a5da862fac02

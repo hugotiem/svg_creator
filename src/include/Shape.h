@@ -18,12 +18,11 @@ private:
 public:
     Shape() {};
 
-    std::ostream& operator<<(std::ostream& os, T& t) {
+    //std::ostream& operator<<(std::ostream& os, T& t) {
 
-
-        os;
-        return os;
-    }
+    //    os;
+    //    return os;
+    //}
 
 
 };
