@@ -23,7 +23,7 @@
 #define BROWN           0.5,0.25,0.0
 
 // initialization routine
-void graphicsSetup(int argc, char **argv);
+void graphicsSetup(int argc, char **argv, int i, int i1);
 void drawScene(void);
 void clearWindow(void);
 

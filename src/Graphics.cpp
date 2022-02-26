@@ -5,7 +5,7 @@
 #include <GL/glut.h>
 #endif
 
-#include "Graphics.h"
+#include "include/Graphics.h"
 #include <cmath>
 
 double PI = acos(-1.0);
@@ -23,11 +23,17 @@ void quitKey(unsigned char key, int x, int y) {
 #endif
 }
 
-void graphicsSetup(int argc, char **argv) {
+void resize(int width, int height) {
+    // we ignore the params and do:
+    glutReshapeWindow( 800, 600);
+}
+
+void graphicsSetup(int argc, char **argv, int height = WINDOW_HEIGHT, int width = WINDOW_WIDTH) {
      glutInit(&argc, argv);
      glutInitDisplayMode(GLUT_DEPTH | GLUT_DOUBLE | GLUT_RGBA);
 	 glutInitWindowPosition(WINDOW_X,WINDOW_Y);
-	 glutInitWindowSize(WINDOW_HEIGHT,WINDOW_WIDTH);
+	 glutInitWindowSize(width, height);
+    glutReshapeFunc(resize);
 	 glutCreateWindow("COSC1315 - Graphics Lab");
 	 glClearColor(WHITE,0.0);
 	 gluOrtho2D(0,WINDOW_WIDTH, 0,WINDOW_HEIGHT);

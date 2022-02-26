@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/julienduponchel/CLionProjects/svg_creator
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/yoggy/Documents/apps/cpp/svg_creator
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/julienduponchel/CLionProjects/svg_creator/cmake-build-debug
+-- Build files have been written to: /Users/yoggy/Documents/apps/cpp/svg_creator/cmake-build-debug

@@ -8,16 +8,53 @@
 
 #include <vector>
 #include "../Shape.cpp"
+#include <iostream>
+#include <fstream>
 
+using namespace std;
+
+template<typename T>
 class Drawing {
 private:
-    int d_x;
-    int d_y;
+    T& shape;
 
 
 
 public:
-    Drawing(int x, int y): d_x(x), d_y(y) {};
+    Drawing(T& shape): shape(shape) {};
+
+    void save() {
+        string title;
+        cout << "Titre de votre dessin: ";
+        cin >> title;
+
+        ofstream myfile;
+        string path= title+".txt";
+        myfile.open (path);
+
+        if(myfile.is_open()) {
+            myfile << shape.getSaveContent();
+        }
+
+        myfile.close();
+    }
+
+    T& open(char const *title) {
+        ifstream file;
+        string data;
+        file.open(title);
+        if(file.is_open()) {
+            while(file) {
+
+            }
+            file >> data;
+            cout << data << endl;
+
+        }
+        T& t = shape.fromTxt();
+        return t;
+    }
+
 };
 
 

@@ -7,18 +7,20 @@
 
 
 #include "Shape.h"
+#include "Graphics.h"
+#include <fstream>
 
 using namespace std;
 
 class Rectangle {
 
 private:
-    char color;
+    string color;
     int d_x;
     int d_y;
 
 public:
-    Rectangle(char color, int x, int y): color(color), d_x(x), d_y(y) {};
+    Rectangle(string color, int x, int y): color(color), d_x(x), d_y(y) {};
 
     int getX() const {
         return d_x;
@@ -28,24 +30,27 @@ public:
         return d_y;
     }
 
-    char getColor() const {
+    string getColor() const {
         return color;
     }
 
     void draw() const {
-        for(int i = 0; i < getX(); i++) {
-            for(int j = 0; j < getY(); j++) {
-                if(i == 0 or i == getX()-1) {
-                    cout << " " << getColor() << " ";
-                } else if (j == 0 or j == getY() - 1) {
-                    cout << " " << getColor() << " ";
-                } else {
-                    cout << "   ";
-                }
-            }
-            cout << endl;
-        }
+
     };
+
+    string svgContent() const {
+        return "<svg width=\"800\" height=\"800\" xmlns=\"http://www.w3.org/2000/svg\">"
+               "<rect x=\"0\" y=\"0\" width=\""+ to_string(d_x) + "\" height=\""+ to_string(d_y) +"\" fill='"+color+"' />"
+                                                                                                           "</svg>\n";
+    }
+
+    string getSaveContent() {
+        return "width " + to_string(d_x) + "\nheight " + to_string(d_y) + "\ncolor " + color;
+    }
+
+    Rectangle& fromTxt () {
+        return *new Rectangle("red", 600, 700);
+    }
 };
 
 

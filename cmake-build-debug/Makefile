@@ -57,10 +57,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/julienduponchel/CLionProjects/svg_creator
+CMAKE_SOURCE_DIR = /Users/yoggy/Documents/apps/cpp/svg_creator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/julienduponchel/CLionProjects/svg_creator/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/yoggy/Documents/apps/cpp/svg_creator/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/julienduponchel/CLionProjects/svg_creator/cmake-build-debug/CMakeFiles /Users/julienduponchel/CLionProjects/svg_creator/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yoggy/Documents/apps/cpp/svg_creator/cmake-build-debug/CMakeFiles /Users/yoggy/Documents/apps/cpp/svg_creator/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/julienduponchel/CLionProjects/svg_creator/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yoggy/Documents/apps/cpp/svg_creator/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,30 +129,6 @@ svg_creator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/svg_creator.dir/build.make CMakeFiles/svg_creator.dir/build
 .PHONY : svg_creator/fast
 
-Graphics.o: Graphics.cpp.o
-.PHONY : Graphics.o
-
-# target to build an object file
-Graphics.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svg_creator.dir/build.make CMakeFiles/svg_creator.dir/Graphics.cpp.o
-.PHONY : Graphics.cpp.o
-
-Graphics.i: Graphics.cpp.i
-.PHONY : Graphics.i
-
-# target to preprocess a source file
-Graphics.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svg_creator.dir/build.make CMakeFiles/svg_creator.dir/Graphics.cpp.i
-.PHONY : Graphics.cpp.i
-
-Graphics.s: Graphics.cpp.s
-.PHONY : Graphics.s
-
-# target to generate assembly for a file
-Graphics.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svg_creator.dir/build.make CMakeFiles/svg_creator.dir/Graphics.cpp.s
-.PHONY : Graphics.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -177,6 +153,54 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/svg_creator.dir/build.make CMakeFiles/svg_creator.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Graphics.o: src/Graphics.cpp.o
+.PHONY : src/Graphics.o
+
+# target to build an object file
+src/Graphics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/svg_creator.dir/build.make CMakeFiles/svg_creator.dir/src/Graphics.cpp.o
+.PHONY : src/Graphics.cpp.o
+
+src/Graphics.i: src/Graphics.cpp.i
+.PHONY : src/Graphics.i
+
+# target to preprocess a source file
+src/Graphics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/svg_creator.dir/build.make CMakeFiles/svg_creator.dir/src/Graphics.cpp.i
+.PHONY : src/Graphics.cpp.i
+
+src/Graphics.s: src/Graphics.cpp.s
+.PHONY : src/Graphics.s
+
+# target to generate assembly for a file
+src/Graphics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/svg_creator.dir/build.make CMakeFiles/svg_creator.dir/src/Graphics.cpp.s
+.PHONY : src/Graphics.cpp.s
+
+src/SvgParser.o: src/SvgParser.cpp.o
+.PHONY : src/SvgParser.o
+
+# target to build an object file
+src/SvgParser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/svg_creator.dir/build.make CMakeFiles/svg_creator.dir/src/SvgParser.cpp.o
+.PHONY : src/SvgParser.cpp.o
+
+src/SvgParser.i: src/SvgParser.cpp.i
+.PHONY : src/SvgParser.i
+
+# target to preprocess a source file
+src/SvgParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/svg_creator.dir/build.make CMakeFiles/svg_creator.dir/src/SvgParser.cpp.i
+.PHONY : src/SvgParser.cpp.i
+
+src/SvgParser.s: src/SvgParser.cpp.s
+.PHONY : src/SvgParser.s
+
+# target to generate assembly for a file
+src/SvgParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/svg_creator.dir/build.make CMakeFiles/svg_creator.dir/src/SvgParser.cpp.s
+.PHONY : src/SvgParser.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... svg_creator"
-	@echo "... Graphics.o"
-	@echo "... Graphics.i"
-	@echo "... Graphics.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Graphics.o"
+	@echo "... src/Graphics.i"
+	@echo "... src/Graphics.s"
+	@echo "... src/SvgParser.o"
+	@echo "... src/SvgParser.i"
+	@echo "... src/SvgParser.s"
 .PHONY : help
 
 
