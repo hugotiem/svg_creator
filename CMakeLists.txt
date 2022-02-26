@@ -1,6 +1,10 @@
-cmake_minimum_required(VERSION 3.21)
+cmake_minimum_required(VERSION 3.8)
 project(svg_creator)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-deprecated-declarations -Qunused-arguments")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -framework GLUT -framework OpenGL")
 
-add_executable(svg_creator main.cpp src/Shape.cpp src/include/Shape.h src/Circle.cpp src/include/Circle.h src/Rectangle.cpp src/include/Rectangle.h src/Polygone.cpp src/include/Polygone.h src/Drawing.cpp src/include/Drawing.h)
+set(SOURCE_FILES main.cpp Graphics.cpp Graphics.h)
+
+add_executable(svg_creator ${SOURCE_FILES})
