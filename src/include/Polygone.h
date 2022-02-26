@@ -8,8 +8,26 @@
 
 #include "Shape.h"
 
-class Polygone {
+using namespace std;
 
+class Polygone {
+private:
+    int d_x;
+    int d_y;
+    char color;
+
+public:
+    int getX() const {
+        return d_x;
+    }
+
+    int getY() const {
+        return d_y;
+    }
+
+    char getColor() const {
+        return color;
+    }
 };
 
 
