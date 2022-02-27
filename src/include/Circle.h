@@ -60,6 +60,16 @@ public:
 
         Circle c = Circle(x, y, r, getColor(color));
     }
+
+    string svgContent() const {
+        return "<svg width=\"800\" height=\"800\" xmlns=\"http://www.w3.org/2000/svg\">"
+               "<circle cx=\""+ to_string(x) + "\" cy=\""+ to_string(y) +"\" r=\""+ to_string(r) +"\" fill='"+color+"' />"
+                                                                                                                    "</svg>\n";
+    }
+
+    string getSavedContent() {
+        return "type cercle\n center x " + to_string(x) + "\n center y " + to_string(y) + "\n radius "+ to_string(r) + "\ncolor " + color;
+    }
 };
 
 

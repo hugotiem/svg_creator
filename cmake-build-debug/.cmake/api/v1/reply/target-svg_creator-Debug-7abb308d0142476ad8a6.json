@@ -35,7 +35,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " -Wno-deprecated-declarations -Qunused-arguments -std=c++11 -framework GLUT -framework OpenGL -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk"
+					"fragment" : " -Wno-deprecated-declarations -Qunused-arguments -std=c++11 -framework GLUT -framework OpenGL -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk"
 				},
 				{
 					"fragment" : "-std=gnu++14"

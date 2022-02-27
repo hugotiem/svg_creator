@@ -53,10 +53,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/yoggy/Documents/apps/cpp/svg_creator
+CMAKE_SOURCE_DIR = /Users/julienduponchel/CLionProjects/svg_creator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/yoggy/Documents/apps/cpp/svg_creator/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/julienduponchel/CLionProjects/svg_creator/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/svg_creator.dir/depend.make
@@ -72,58 +72,58 @@ include CMakeFiles/svg_creator.dir/flags.make
 CMakeFiles/svg_creator.dir/main.cpp.o: CMakeFiles/svg_creator.dir/flags.make
 CMakeFiles/svg_creator.dir/main.cpp.o: ../main.cpp
 CMakeFiles/svg_creator.dir/main.cpp.o: CMakeFiles/svg_creator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yoggy/Documents/apps/cpp/svg_creator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/svg_creator.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/svg_creator.dir/main.cpp.o -MF CMakeFiles/svg_creator.dir/main.cpp.o.d -o CMakeFiles/svg_creator.dir/main.cpp.o -c /Users/yoggy/Documents/apps/cpp/svg_creator/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/julienduponchel/CLionProjects/svg_creator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/svg_creator.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/svg_creator.dir/main.cpp.o -MF CMakeFiles/svg_creator.dir/main.cpp.o.d -o CMakeFiles/svg_creator.dir/main.cpp.o -c /Users/julienduponchel/CLionProjects/svg_creator/main.cpp
 
 CMakeFiles/svg_creator.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/svg_creator.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yoggy/Documents/apps/cpp/svg_creator/main.cpp > CMakeFiles/svg_creator.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/julienduponchel/CLionProjects/svg_creator/main.cpp > CMakeFiles/svg_creator.dir/main.cpp.i
 
 CMakeFiles/svg_creator.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/svg_creator.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yoggy/Documents/apps/cpp/svg_creator/main.cpp -o CMakeFiles/svg_creator.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/julienduponchel/CLionProjects/svg_creator/main.cpp -o CMakeFiles/svg_creator.dir/main.cpp.s
 
 CMakeFiles/svg_creator.dir/src/Graphics.cpp.o: CMakeFiles/svg_creator.dir/flags.make
 CMakeFiles/svg_creator.dir/src/Graphics.cpp.o: ../src/Graphics.cpp
 CMakeFiles/svg_creator.dir/src/Graphics.cpp.o: CMakeFiles/svg_creator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yoggy/Documents/apps/cpp/svg_creator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/svg_creator.dir/src/Graphics.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/svg_creator.dir/src/Graphics.cpp.o -MF CMakeFiles/svg_creator.dir/src/Graphics.cpp.o.d -o CMakeFiles/svg_creator.dir/src/Graphics.cpp.o -c /Users/yoggy/Documents/apps/cpp/svg_creator/src/Graphics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/julienduponchel/CLionProjects/svg_creator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/svg_creator.dir/src/Graphics.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/svg_creator.dir/src/Graphics.cpp.o -MF CMakeFiles/svg_creator.dir/src/Graphics.cpp.o.d -o CMakeFiles/svg_creator.dir/src/Graphics.cpp.o -c /Users/julienduponchel/CLionProjects/svg_creator/src/Graphics.cpp
 
 CMakeFiles/svg_creator.dir/src/Graphics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/svg_creator.dir/src/Graphics.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yoggy/Documents/apps/cpp/svg_creator/src/Graphics.cpp > CMakeFiles/svg_creator.dir/src/Graphics.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/julienduponchel/CLionProjects/svg_creator/src/Graphics.cpp > CMakeFiles/svg_creator.dir/src/Graphics.cpp.i
 
 CMakeFiles/svg_creator.dir/src/Graphics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/svg_creator.dir/src/Graphics.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yoggy/Documents/apps/cpp/svg_creator/src/Graphics.cpp -o CMakeFiles/svg_creator.dir/src/Graphics.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/julienduponchel/CLionProjects/svg_creator/src/Graphics.cpp -o CMakeFiles/svg_creator.dir/src/Graphics.cpp.s
 
 CMakeFiles/svg_creator.dir/src/SvgParser.cpp.o: CMakeFiles/svg_creator.dir/flags.make
 CMakeFiles/svg_creator.dir/src/SvgParser.cpp.o: ../src/SvgParser.cpp
 CMakeFiles/svg_creator.dir/src/SvgParser.cpp.o: CMakeFiles/svg_creator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yoggy/Documents/apps/cpp/svg_creator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/svg_creator.dir/src/SvgParser.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/svg_creator.dir/src/SvgParser.cpp.o -MF CMakeFiles/svg_creator.dir/src/SvgParser.cpp.o.d -o CMakeFiles/svg_creator.dir/src/SvgParser.cpp.o -c /Users/yoggy/Documents/apps/cpp/svg_creator/src/SvgParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/julienduponchel/CLionProjects/svg_creator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/svg_creator.dir/src/SvgParser.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/svg_creator.dir/src/SvgParser.cpp.o -MF CMakeFiles/svg_creator.dir/src/SvgParser.cpp.o.d -o CMakeFiles/svg_creator.dir/src/SvgParser.cpp.o -c /Users/julienduponchel/CLionProjects/svg_creator/src/SvgParser.cpp
 
 CMakeFiles/svg_creator.dir/src/SvgParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/svg_creator.dir/src/SvgParser.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yoggy/Documents/apps/cpp/svg_creator/src/SvgParser.cpp > CMakeFiles/svg_creator.dir/src/SvgParser.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/julienduponchel/CLionProjects/svg_creator/src/SvgParser.cpp > CMakeFiles/svg_creator.dir/src/SvgParser.cpp.i
 
 CMakeFiles/svg_creator.dir/src/SvgParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/svg_creator.dir/src/SvgParser.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yoggy/Documents/apps/cpp/svg_creator/src/SvgParser.cpp -o CMakeFiles/svg_creator.dir/src/SvgParser.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/julienduponchel/CLionProjects/svg_creator/src/SvgParser.cpp -o CMakeFiles/svg_creator.dir/src/SvgParser.cpp.s
 
 CMakeFiles/svg_creator.dir/src/Segment.cpp.o: CMakeFiles/svg_creator.dir/flags.make
 CMakeFiles/svg_creator.dir/src/Segment.cpp.o: ../src/Segment.cpp
 CMakeFiles/svg_creator.dir/src/Segment.cpp.o: CMakeFiles/svg_creator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yoggy/Documents/apps/cpp/svg_creator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/svg_creator.dir/src/Segment.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/svg_creator.dir/src/Segment.cpp.o -MF CMakeFiles/svg_creator.dir/src/Segment.cpp.o.d -o CMakeFiles/svg_creator.dir/src/Segment.cpp.o -c /Users/yoggy/Documents/apps/cpp/svg_creator/src/Segment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/julienduponchel/CLionProjects/svg_creator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/svg_creator.dir/src/Segment.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/svg_creator.dir/src/Segment.cpp.o -MF CMakeFiles/svg_creator.dir/src/Segment.cpp.o.d -o CMakeFiles/svg_creator.dir/src/Segment.cpp.o -c /Users/julienduponchel/CLionProjects/svg_creator/src/Segment.cpp
 
 CMakeFiles/svg_creator.dir/src/Segment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/svg_creator.dir/src/Segment.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yoggy/Documents/apps/cpp/svg_creator/src/Segment.cpp > CMakeFiles/svg_creator.dir/src/Segment.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/julienduponchel/CLionProjects/svg_creator/src/Segment.cpp > CMakeFiles/svg_creator.dir/src/Segment.cpp.i
 
 CMakeFiles/svg_creator.dir/src/Segment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/svg_creator.dir/src/Segment.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yoggy/Documents/apps/cpp/svg_creator/src/Segment.cpp -o CMakeFiles/svg_creator.dir/src/Segment.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/julienduponchel/CLionProjects/svg_creator/src/Segment.cpp -o CMakeFiles/svg_creator.dir/src/Segment.cpp.s
 
 # Object files for target svg_creator
 svg_creator_OBJECTS = \
@@ -141,7 +141,7 @@ svg_creator: CMakeFiles/svg_creator.dir/src/SvgParser.cpp.o
 svg_creator: CMakeFiles/svg_creator.dir/src/Segment.cpp.o
 svg_creator: CMakeFiles/svg_creator.dir/build.make
 svg_creator: CMakeFiles/svg_creator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yoggy/Documents/apps/cpp/svg_creator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable svg_creator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/julienduponchel/CLionProjects/svg_creator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable svg_creator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/svg_creator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/svg_creator.dir/clean:
 .PHONY : CMakeFiles/svg_creator.dir/clean
 
 CMakeFiles/svg_creator.dir/depend:
-	cd /Users/yoggy/Documents/apps/cpp/svg_creator/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/yoggy/Documents/apps/cpp/svg_creator /Users/yoggy/Documents/apps/cpp/svg_creator /Users/yoggy/Documents/apps/cpp/svg_creator/cmake-build-debug /Users/yoggy/Documents/apps/cpp/svg_creator/cmake-build-debug /Users/yoggy/Documents/apps/cpp/svg_creator/cmake-build-debug/CMakeFiles/svg_creator.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/julienduponchel/CLionProjects/svg_creator/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/julienduponchel/CLionProjects/svg_creator /Users/julienduponchel/CLionProjects/svg_creator /Users/julienduponchel/CLionProjects/svg_creator/cmake-build-debug /Users/julienduponchel/CLionProjects/svg_creator/cmake-build-debug /Users/julienduponchel/CLionProjects/svg_creator/cmake-build-debug/CMakeFiles/svg_creator.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/svg_creator.dir/depend
 

@@ -33,6 +33,16 @@ public:
         Segment seg = Segment(getColor(color), x1, y1, x2, y2);
         return seg;
     }
+
+    string svgContent() const {
+        return "<svg width=\"800\" height=\"800\" xmlns=\"http://www.w3.org/2000/svg\">"
+               "<line x1=\""+ to_string(x1) + "\" y1=\""+ to_string(y1) +"\" x2=\""+ to_string(x2) + "\" y2=\""+ to_string(y2) +"\" fill='"+color+"' />"
+                                                                                                                    "</svg>\n";
+    }
+
+    string getSavedContent() {
+        return "type cercle\n center x " + to_string(x) + "\n center y " + to_string(y) + "\n radius "+ to_string(r) + "\ncolor " + color;
+    }
 };
 
 
