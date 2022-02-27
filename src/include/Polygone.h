@@ -54,6 +54,12 @@ public:
         return p;
     }
 
+    string svgContent(){
+        return "<svg width=\"800\" height=\"800\" xmlns=\"http://www.w3.org/2000/svg\">"
+               "<line x1=\""+ to_string(x1) + "\" y1=\""+ to_string(y1) +"\" x2=\""+ to_string(x2) + "\" y2=\""+ to_string(y2) +"\" fill='"+color+"' />"
+                                                                                                                                                  "</svg>\n";
+    }
+
 };
 
 

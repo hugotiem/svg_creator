@@ -68,7 +68,7 @@ public:
     }
 
     string getSavedContent() {
-        return "type cercle\n center x " + to_string(x) + "\n center y " + to_string(y) + "\n radius "+ to_string(r) + "\ncolor " + color;
+        return "type cercle\ncenter_x " + to_string(x) + "\ncenter_y " + to_string(y) + "\nradius "+ to_string(r) + "\ncolor " + color;
     }
 };
 

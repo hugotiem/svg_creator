@@ -41,7 +41,9 @@ public:
     }
 
     string getSavedContent() {
-        return "type cercle\n center x " + to_string(x) + "\n center y " + to_string(y) + "\n radius "+ to_string(r) + "\ncolor " + color;
+        return "type segment\npoint_x1" + to_string(x1) + "\npoint_y1 " + to_string(y1) +
+                "\npoint_x2 " + to_string(x1) + "\npoint_y2 " + to_string(y1) +
+                "\ncolor " + color;
     }
 };
 
