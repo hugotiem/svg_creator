@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/svg_creator.dir/main.cpp.o.d"
   "CMakeFiles/svg_creator.dir/src/Graphics.cpp.o"
   "CMakeFiles/svg_creator.dir/src/Graphics.cpp.o.d"
+  "CMakeFiles/svg_creator.dir/src/Segment.cpp.o"
+  "CMakeFiles/svg_creator.dir/src/Segment.cpp.o.d"
   "CMakeFiles/svg_creator.dir/src/SvgParser.cpp.o"
   "CMakeFiles/svg_creator.dir/src/SvgParser.cpp.o.d"
   "svg_creator"

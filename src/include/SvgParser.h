@@ -17,13 +17,11 @@ class SvgParser {
 
 public:
     SvgParser(T& shape): shape(shape) {
-        cout << shape.getX() << endl;
+
     };
 
-    void exportToSvg() {
-        string svgTitle;
-        cout << "Titre du fichier svg: ";
-        cin >> svgTitle;
+    void exportToSvg(string svgTitle) {
+
 
         ofstream myfile;
         string path= svgTitle+".svg";

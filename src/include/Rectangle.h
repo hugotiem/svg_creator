@@ -5,10 +5,9 @@
 #ifndef SVG_CREATOR_RECTANGLE_H
 #define SVG_CREATOR_RECTANGLE_H
 
-
-#include "Shape.h"
 #include "Graphics.h"
 #include <fstream>
+#include <map>
 
 using namespace std;
 
@@ -21,6 +20,7 @@ private:
 
 public:
     Rectangle(string color, int x, int y): color(color), d_x(x), d_y(y) {};
+    Rectangle(): d_x(0), d_y(0), color("") {};
 
     int getX() const {
         return d_x;
@@ -28,6 +28,23 @@ public:
 
     int getY() const {
         return d_y;
+    }
+
+    static Rectangle buildRectangle( string (*function)(char color), bool square=false) {
+        int x, y;
+        char color;
+        cout << "Dimensions et couleur de votre rectangle:\nx: ";
+        cin >> x;
+        if(square) {
+            y = x;
+        } else {
+            cout << "and y: ";
+            cin >> y;
+        }
+        cout << "and color: (rouge: r, orange: o, vert: g, jaune: y, violet: p, others: noir) ";
+        cin >> color;
+        Rectangle rec = Rectangle(function(color), x, y);
+        return rec;
     }
 
     string getColor() const {
@@ -44,12 +61,15 @@ public:
                                                                                                            "</svg>\n";
     }
 
-    string getSaveContent() {
-        return "width " + to_string(d_x) + "\nheight " + to_string(d_y) + "\ncolor " + color;
+    string getSavedContent() {
+        return "type rectangle\nwidth " + to_string(d_x) + "\nheight " + to_string(d_y) + "\ncolor " + color;
     }
 
-    Rectangle& fromTxt () {
-        return *new Rectangle("red", 600, 700);
+    Rectangle& fromTxt (map<string, string> m) {
+        string c = m.at("color");
+        int x = stoi(m.at("width"));
+        int y = stoi(m.at("height"));
+        return *new Rectangle(c, x, y);
     }
 };
 

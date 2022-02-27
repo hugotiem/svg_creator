@@ -6,7 +6,6 @@
 #define SVG_CREATOR_CIRCLE_H
 
 
-#include "Shape.h"
 #include <iostream>
 #include <math.h>
 
@@ -14,17 +13,17 @@ using namespace std;
 
 class Circle {
 private:
-    int r;
-    char color;
+    int x, y, r;
+    string color;
 
 public:
-    Circle(int r, char color): r(r), color(color) {};
+    Circle(int x, int y, int r, string color): x(x), y(y), r(r), color(color) {};
 
     int getRayon() const {
         return r;
     }
 
-    char getColor() const {
+    string getColor() const {
         return color;
     }
 
@@ -42,6 +41,24 @@ public:
             }
             cout << "\n";
         }
+    }
+
+    static Circle buildCircle(string(*getColor)(char color)) {
+        int x, y, r;
+        char color;
+        cout << "centre, rayon et couleur de votre cercle: \nx: ";
+        cin >> x;
+
+        cout << "y: ";
+        cin >> y;
+
+        cout << "rayon: ";
+        cin >> r;
+
+        cout << "et couleur: (rouge: r, orange: o, vert: g, jaune: y, violet: p, others: noir) ";
+        cin >> color;
+
+        Circle c = Circle(x, y, r, getColor(color));
     }
 };
 

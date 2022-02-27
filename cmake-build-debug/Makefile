@@ -177,6 +177,30 @@ src/Graphics.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/svg_creator.dir/build.make CMakeFiles/svg_creator.dir/src/Graphics.cpp.s
 .PHONY : src/Graphics.cpp.s
 
+src/Segment.o: src/Segment.cpp.o
+.PHONY : src/Segment.o
+
+# target to build an object file
+src/Segment.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/svg_creator.dir/build.make CMakeFiles/svg_creator.dir/src/Segment.cpp.o
+.PHONY : src/Segment.cpp.o
+
+src/Segment.i: src/Segment.cpp.i
+.PHONY : src/Segment.i
+
+# target to preprocess a source file
+src/Segment.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/svg_creator.dir/build.make CMakeFiles/svg_creator.dir/src/Segment.cpp.i
+.PHONY : src/Segment.cpp.i
+
+src/Segment.s: src/Segment.cpp.s
+.PHONY : src/Segment.s
+
+# target to generate assembly for a file
+src/Segment.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/svg_creator.dir/build.make CMakeFiles/svg_creator.dir/src/Segment.cpp.s
+.PHONY : src/Segment.cpp.s
+
 src/SvgParser.o: src/SvgParser.cpp.o
 .PHONY : src/SvgParser.o
 
@@ -216,6 +240,9 @@ help:
 	@echo "... src/Graphics.o"
 	@echo "... src/Graphics.i"
 	@echo "... src/Graphics.s"
+	@echo "... src/Segment.o"
+	@echo "... src/Segment.i"
+	@echo "... src/Segment.s"
 	@echo "... src/SvgParser.o"
 	@echo "... src/SvgParser.i"
 	@echo "... src/SvgParser.s"

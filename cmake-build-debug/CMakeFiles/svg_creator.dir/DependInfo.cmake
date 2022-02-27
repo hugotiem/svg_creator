@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/yoggy/Documents/apps/cpp/svg_creator/main.cpp" "CMakeFiles/svg_creator.dir/main.cpp.o" "gcc" "CMakeFiles/svg_creator.dir/main.cpp.o.d"
   "/Users/yoggy/Documents/apps/cpp/svg_creator/src/Graphics.cpp" "CMakeFiles/svg_creator.dir/src/Graphics.cpp.o" "gcc" "CMakeFiles/svg_creator.dir/src/Graphics.cpp.o.d"
+  "/Users/yoggy/Documents/apps/cpp/svg_creator/src/Segment.cpp" "CMakeFiles/svg_creator.dir/src/Segment.cpp.o" "gcc" "CMakeFiles/svg_creator.dir/src/Segment.cpp.o.d"
   "/Users/yoggy/Documents/apps/cpp/svg_creator/src/SvgParser.cpp" "CMakeFiles/svg_creator.dir/src/SvgParser.cpp.o" "gcc" "CMakeFiles/svg_creator.dir/src/SvgParser.cpp.o.d"
   )
 

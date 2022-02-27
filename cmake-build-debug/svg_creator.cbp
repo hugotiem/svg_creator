@@ -86,10 +86,16 @@
 		<Unit filename="/Users/yoggy/Documents/apps/cpp/svg_creator/src/Graphics.cpp">
 			<Option target="svg_creator"/>
 		</Unit>
+		<Unit filename="/Users/yoggy/Documents/apps/cpp/svg_creator/src/Segment.cpp">
+			<Option target="svg_creator"/>
+		</Unit>
 		<Unit filename="/Users/yoggy/Documents/apps/cpp/svg_creator/src/SvgParser.cpp">
 			<Option target="svg_creator"/>
 		</Unit>
 		<Unit filename="/Users/yoggy/Documents/apps/cpp/svg_creator/src/include/Graphics.h">
+			<Option target="svg_creator"/>
+		</Unit>
+		<Unit filename="/Users/yoggy/Documents/apps/cpp/svg_creator/src/include/Segment.h">
 			<Option target="svg_creator"/>
 		</Unit>
 		<Unit filename="/Users/yoggy/Documents/apps/cpp/svg_creator/src/include/SvgParser.h">
